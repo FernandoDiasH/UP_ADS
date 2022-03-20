@@ -1,0 +1,33 @@
+body{
+
+	font-size: 19px;
+	font-family: Baskerville;
+	color: 
+}
+
+section{
+	margin:15px;
+}
+
+
+
+
+.logo_cabecalho{
+	margin: 20px;
+}
+
+.menu{
+	margin-left: 50px;
+
+
+}
+
+.menu a {
+	text-decoration: none;
+	margin: 15px;
+	
+}
+
+.menu img {
+	margin: 0 5px;
+}

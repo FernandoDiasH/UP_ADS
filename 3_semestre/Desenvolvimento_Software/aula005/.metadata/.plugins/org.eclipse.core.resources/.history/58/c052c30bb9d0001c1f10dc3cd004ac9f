@@ -1,0 +1,14 @@
+package br.edu.up;
+
+import br.edu.up.model.Cachorro;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Cachorro cachorro1 = new Cachorro();
+		cachorro1.raça = "Rottweiller";
+		
+	}
+
+}

@@ -60,7 +60,7 @@ public class Programa {
 		
 		
 		Humano humano = new Humano();
-		humano.setIdade(96);
+		humano.setIdade(-96);
 		humano.nome = "Elizabeth";
 		
 		Mulher mulher = new Mulher();

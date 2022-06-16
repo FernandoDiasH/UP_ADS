@@ -1,0 +1,11 @@
+package br.edu.up.model;
+
+public class Cachorro extends Animal {
+	
+	public String raça;
+	public String nome;
+	public String porte;
+	public int idade;
+	
+	
+}

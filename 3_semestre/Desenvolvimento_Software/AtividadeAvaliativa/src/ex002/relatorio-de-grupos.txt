@@ -1,0 +1,6 @@
+Soma total dos grupos: 684.0Total grupo A: 174.0
+Total grupo B: 184.0
+Total grupo C: 25.0
+Total grupo D: 59.0
+Total grupo E: 42.0
+Total grupo F: 200.0

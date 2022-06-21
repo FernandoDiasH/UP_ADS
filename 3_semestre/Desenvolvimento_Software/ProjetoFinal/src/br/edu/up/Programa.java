@@ -32,18 +32,18 @@ public class Programa {
 				menu();
 				
 				System.out.println("opçao:");
-				opcao = leitor.nextInt();
+				opcao = Integer.parseInt(leitor.nextLine());
 				
 				if(opcao == 1) {
 					System.out.println("Cadastrar novo Filme");
 					System.out.println("--------------------");
 					
 					System.out.println("Nome: ");
-					String nomeFilme = leitor.next();
+					String nomeFilme = leitor.nextLine();
 					System.out.println("Categoria: ");
-					String categoriaFilme = leitor.next();
+					String categoriaFilme = leitor.nextLine();
 					System.out.println("Ano de lançamento: ");
-					int anoLanc = leitor.nextInt();
+					int anoLanc = Integer.parseInt(leitor.nextLine());
 					
 					cadastrarFilme(nomeFilme, categoriaFilme, anoLanc);
 					
@@ -54,13 +54,13 @@ public class Programa {
 					System.out.println("--------------------");
 					
 					System.out.println("ID: ");
-					int id = leitor.nextInt();
+					int id = Integer.parseInt(leitor.nextLine());
 					System.out.println("Nome: ");
-					String nomeFilme = leitor.next();
+					String nomeFilme = leitor.nextLine();
 					System.out.println("Categoria: ");
-					String categoriaFilme = leitor.next();
+					String categoriaFilme = leitor.nextLine();
 					System.out.println("Ano de lançamento: ");
-					int anoLanc = leitor.nextInt();
+					int anoLanc = Integer.parseInt(leitor.nextLine());
 					
 					atualizarFilme(id, nomeFilme, categoriaFilme, anoLanc);
 					opcao = 0;
@@ -73,7 +73,7 @@ public class Programa {
 				}
 				else if(opcao == 4) {
 					System.out.println("Digite o ID do filme para apagar:");
-					int id = leitor.nextInt();
+					int id = Integer.parseInt(leitor.nextLine());
 					apagar(id);
 				}
 				
